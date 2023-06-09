@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    background-image: url(/app-background.png);
+    background-size: 8rem;
+}
+
+.wrapper{
+    width: 80%;
+    max-width: 40rem;
+    padding: 3rem;
+    background-color: white;
+    border-radius: 0.5rem;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.wrapper img{
+    display: block;
+    max-width:90%;
+    max-height: 50rem;
+    margin: auto;
+    border-radius: 0.5rem;
+}
+
+#title{
+    text-align: center;
+    font-size: 1.4rem;
+    margin: 1.8rem 0;
+    font-family: 'Poppins', sans-serif;
+    text-transform: capitalize;
+    color: #737081;
+}
+
+#memeBtn{
+    display: block;
+    margin: 0 auto;
+    padding: 1.2rem 2.5rem;
+    font-size: 1.9rem;
+    border-radius: 3rem;
+    border: none;
+    outline: none;
+    background-color: #7f5eff;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    text-transform: capitalize;
+    color: white;
+}
+
+#memeBtn:active{
+    transform: scale(1.1);
+}
+
+
+/* ------------------------------------ */
+
+@media (max-width:994px) {
+    html{
+        font-size: 55%;
+    }
+}
+
+@media (max-width:576) {
+    html{
+        font-size: 48%;
+    }
+}
+
+@media (max-width:576) {
+    html{
+        font-size: 40%;
+    }
+}
