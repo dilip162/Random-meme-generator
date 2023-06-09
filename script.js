@@ -5,7 +5,7 @@ const memeBtn=document.getElementById('memeBtn');
 
 // choose subreddit
 
-let subreddit=["catmemes","wholesomemes","dogmemes","me_irl"]
+let subreddit=["catmemes","wholesomemes","dogmemes","me_irl","dankmemes"]
 
 // function to generate the memes 
 
